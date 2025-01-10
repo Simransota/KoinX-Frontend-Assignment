@@ -80,9 +80,9 @@ This folder contains all static assets, such as images, icons, and other media f
 ---
 
   ## API used
-CoinGecko /simple/price API
+**`CoinGecko /simple/price API`**
 - Endpoint: https://api.coingecko.com/api/v3/simple/price
-CoinGecko /search/trending API
+**`CoinGecko /search/trending API`**
 - Endpoint: https://api.coingecko.com/api/v3/search/trending
-CoinGecko /coins/{id} API
+**`CoinGecko /coins/{id} API`**
 - Endpoint: https://api.coingecko.com/api/v3/coins/{id}
