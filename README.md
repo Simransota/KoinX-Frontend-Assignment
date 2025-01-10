@@ -87,4 +87,6 @@ This folder contains all static assets, such as images, icons, and other media f
 ### `CoinGecko /coins/{id} API`
 - Endpoint: https://api.coingecko.com/api/v3/coins/{id}
 
-  ## Live Demo
+---
+
+  ## Live Demoß
