@@ -76,6 +76,7 @@ Contains reusable UI components like buttons, cards, or layouts to maintain cons
 This folder contains all static assets, such as images, icons, and other media files.
 - Subfolder: 
   - **`team/`**: Includes images of team members (`team1.png`, `team2.png`, `team3.png`).
+  - **`live-demo`** : added the live demo of the whole website with all functionalities mentioned in the task.
 
 ---
 
@@ -90,3 +91,4 @@ This folder contains all static assets, such as images, icons, and other media f
 ---
 
   ## Live Demo
+  This public folder it contains the live-demo video.
