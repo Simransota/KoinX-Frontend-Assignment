@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KoinX Frontend Intern Assignment
+
+This repository contains the submission for the **KoinX Frontend Intern Assignment**. The project is a web application built using **React.js/Next.js**, showcasing responsiveness and dynamic features as per the provided Figma design.
+
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [APIs Used](#apis-used)
+- [Contact](#contact)
+
+---
+
+## Overview
+
+The task involves:
+- Converting a Figma design into a functional web application.
+- Using React.js or Next.js for frontend development.
+- Integrating real-time data using APIs and widgets.
+- Ensuring responsiveness and design fidelity.
+
+---
+
+## Features
+
+- **Responsive Design**: Fully functional UI matching the Figma design.
+- **Real-time Bitcoin Data**:
+  - Displays Bitcoin prices in USD and INR.
+  - Shows the 24-hour price change percentage.
+- **Trending Cryptocurrencies**:
+  - Fetches and displays the top 3 trending cryptocurrencies.
+- **Advanced Charting**:
+  - Integrates TradingView's advanced chart widget for BTC/USD.
+- **Dynamic Carousel**:
+  - Horizontally scrollable carousel for a "You May Also Like" section.
+
+---
 
 ## Getting Started
 
@@ -20,19 +59,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### `app/`
+The primary folder for the application's source code. It contains the following:
+- **`[coinId]/`**: Handles dynamic routing for pages related to individual cryptocurrencies.
+- **`api/`**: Contains server-side API routes.
+- **`components/`**: Houses reusable components used across the app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### `components/ui/`
+Contains reusable UI components like buttons, cards, or layouts to maintain consistency across the application.
 
-## Deploy on Vercel
+### `public/`
+This folder contains all static assets, such as images, icons, and other media files.
+- Subfolder: 
+  - **`team/`**: Includes images of team members (`team1.png`, `team2.png`, `team3.png`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# KoinX-Frontend-Assignment
-
+  ## API used
+CoinGecko /simple/price API
+- Endpoint: https://api.coingecko.com/api/v3/simple/price
+CoinGecko /search/trending API
+- Endpoint: https://api.coingecko.com/api/v3/search/trending
+CoinGecko /coins/{id} API
+- Endpoint: https://api.coingecko.com/api/v3/coins/{id}
