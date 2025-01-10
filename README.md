@@ -89,4 +89,4 @@ This folder contains all static assets, such as images, icons, and other media f
 
 ---
 
-  ## Live Demoß
+  ## Live Demo
