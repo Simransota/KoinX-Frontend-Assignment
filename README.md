@@ -10,7 +10,7 @@ This repository contains the submission for the **KoinX Frontend Intern Assignme
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [APIs Used](#apis-used)
-- [Contact](#contact)
+- [LiveDemo](#live-demo)
 
 ---
 
@@ -86,3 +86,5 @@ This folder contains all static assets, such as images, icons, and other media f
 - Endpoint: https://api.coingecko.com/api/v3/search/trending
 ### `CoinGecko /coins/{id} API`
 - Endpoint: https://api.coingecko.com/api/v3/coins/{id}
+
+  ## Live Demo
